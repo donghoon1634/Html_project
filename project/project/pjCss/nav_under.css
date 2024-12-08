@@ -1,0 +1,50 @@
+
+#flex-end{
+    font-size: 40px;
+    color: gray;
+    margin-left: 100px;
+}
+
+.aside{
+    right: 50px;
+    float: right;
+    margin-right: 120px;
+}
+
+
+.aside img{
+    right: 250px;
+    float: left;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+
+
+.a1{
+    color: blue;
+    text-decoration: none;
+    float: right;
+    right: 30px;
+    font-size: 15px;
+}
+
+.a2{
+    color: blue;
+    text-decoration: none;
+    float: right;
+    right: 115px;
+
+    font-size: 15px;
+}
+
+b{
+    font-size: 42px;
+    margin-left: 100px;
+}
+
+b1{
+    font-size: 42px;
+    color: gray;
+}

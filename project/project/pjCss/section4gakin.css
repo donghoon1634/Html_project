@@ -1,0 +1,120 @@
+.contflx{width: 100%;
+  display: flex;
+}
+
+.contflx img{
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  flex-grow: 0;
+  flex-basis: 100%;
+  padding: 0px;
+  
+}
+
+.contflx img:hover{
+scale: 1.03;
+  box-shadow: 0 5px 10px rgba(110, 110, 110, 0.4);
+}
+
+
+.color1{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  box-shadow: 0 -0.5px rgba(10, 10, 10, 0.5);
+  background: linear-gradient(to bottom,darkgray 50%, rgb(160, 189, 196) 50%);
+  margin-top: 355px;
+  margin-left: 110px;
+  position: absolute;
+}
+.color2{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  box-shadow: 0 -0.5px rgba(10, 10, 10, 0.5);
+  background: linear-gradient(to bottom,lavender 50%, rgb(186, 186, 228) 50%);
+  margin-top: 355px;
+  margin-left: 130px;
+  position: absolute;
+}
+.color3{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  box-shadow: 0 -0.5px rgba(10, 10, 10, 0.5);
+  background: linear-gradient(to bottom,black 50%, rgb(58, 58, 58) 50%);
+  margin-top: 355px;
+  margin-left: 150px;
+  position: absolute;
+}
+.color4{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  box-shadow: 0 -0.5px rgba(10, 10, 10, 0.5);
+  background: linear-gradient(to bottom,rgb(239, 231, 225) 50%, rgb(199, 184, 166) 50%);
+  margin-top: 355px;
+  margin-left: 170px;
+  position: absolute;
+}
+.color5{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  box-shadow: 0 -0.5px rgba(10, 10, 10, 0.5);
+  background: linear-gradient(to bottom,rgb(255, 187, 162) 50%, rgb(222, 147, 106) 50%);
+  margin-top: 355px;
+  margin-left: 190px;
+  position: absolute;
+}
+.flx1{
+  background-color: rgb(233, 232, 237);
+  width: 400px;
+  height: 500px;
+  flex-shrink: 1.5;
+  box-shadow: 0 5px 10px rgba(110, 110, 110, 0.4);
+  border-radius: 25px;
+  position: relative;
+  margin: 10px;
+  
+}
+.flx2{
+  background: white;
+  flex-shrink: 0; 
+  box-shadow: 0 5px 10px rgba(110, 110, 110, 0.4);
+  border-radius: 25px;
+  position: relative;
+  margin: 10px;
+}
+
+
+#info4{
+  margin-top: 80px;
+  margin-left: 30px;
+  position: absolute;
+  font-size: 23px;
+}
+
+#info5{
+  color: darkorange;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 380px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+#info6{
+  margin-top: 395px;
+  font-size: 15px;
+  margin-left: 30px;
+  position: absolute;
+}
+#info7{
+  font-weight: lighter;
+  margin-top: 470px;
+  margin-left: 30px;
+  position: absolute;
+}

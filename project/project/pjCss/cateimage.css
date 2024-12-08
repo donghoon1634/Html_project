@@ -1,0 +1,21 @@
+section{
+    font-weight: bold;
+    margin-left: 100px;  
+}
+
+section div{
+    display:inline-flex;
+}
+
+.buy{
+    width: 120px;
+    height: 94px;
+    margin: 5px;
+}
+
+.prdid{
+    width: 120px;
+    justify-content: center;
+    margin: 5px;
+    font-size: 10px;
+}

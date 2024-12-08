@@ -1,0 +1,56 @@
+.contsh{width: 100%;
+  display: flex;
+}
+
+.contsh img{
+  flex-wrap: wrap;
+  width: 480px;
+  height: 500px;
+  border-radius: 20px;
+  margin: 10px;
+  flex-grow: 0;
+  flex-basis: 480px;
+  padding: 0;
+  
+  box-shadow: 0 5px 10px rgba(110, 110, 110, 0.4);
+}
+
+.contsh img:hover{
+scale: 1.03;
+  box-shadow: 0 5px 10px rgba(110, 110, 110, 0.4);
+}
+.shrkimg1{
+  flex-shrink: 0;
+  position: relative;
+}
+.shrkimg2{
+  flex-shrink: 0;  
+  position: relative;
+}
+.shrkimg3{
+  flex-shrink: 0;
+  position: relative;
+}
+.shrkimg4{
+  flex-shrink: 3;
+  position: relative;
+}
+
+
+#info1{
+  margin-top: 80px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+#info2{
+  margin-top: 130px;
+  margin-left: 30px;
+  position: absolute;
+}
+
+#info3{
+  margin-top: 160px;
+  margin-left: 30px;
+  position: absolute;
+}
